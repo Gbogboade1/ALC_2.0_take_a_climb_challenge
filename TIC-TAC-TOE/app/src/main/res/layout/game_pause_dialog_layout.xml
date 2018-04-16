@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/pause_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/game_paused_text"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
